@@ -25,7 +25,7 @@ function displayCart() {
           </div>
         </div>
         <div class="col-md-3 order-md-1">
-          <img src="../images/popularItems/popular${index}.jpg" class="img-fluid custom-image" alt="popular${index}">
+          <img src="../images/catalog/item${index}.jpg" class="img-fluid custom-image" alt="popular${index}">
         </div>
         <div class="col-md-2 order-md-3">
           <p class="pb-5 text-end">${index * 2000} THB</p>

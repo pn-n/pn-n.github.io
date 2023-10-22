@@ -23,7 +23,7 @@ function displayPopularProducts2() {
     <div class="col-md-4">
     <div class="card" style="width: 18rem;">
       <div class="image-container">
-        <img src="../images/popularItems/popular${index + 4}.jpg" alt="...">
+        <img src="../images/catalog/item${index + 4}.jpg" alt="...">
         <div class="heart-icon">
           <button type="button" class="btn heart-toggle-button" data-bs-toggle="button">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
@@ -64,7 +64,7 @@ function displayPopularProducts() {
     <div class="col-md-4">
         <div class="card" style="width: 18rem;">
           <div class="image-container">
-            <img src="../images/popularItems/popular${index + 1}.jpg" alt="...">
+            <img src="../images/catalog/item${index + 1}.jpg" alt="...">
             <div class="heart-icon">
               <button type="button" class="btn heart-toggle-button" data-bs-toggle="button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
