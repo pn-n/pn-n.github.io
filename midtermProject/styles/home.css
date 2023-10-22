@@ -71,16 +71,6 @@
   color: white; 
 }
 
-.cart-toggle-button {
-  color: black; 
-  border: none; 
-}
-
-.cart-toggle-button.active {
-  color: green; 
-  border: none; 
-}
-
 .heart-toggle-button.active {
   border: none; 
   color: red;
