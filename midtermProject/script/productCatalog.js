@@ -1,7 +1,7 @@
 const gerateProducts = () => {
   let arr = []
   for (i = 1; i <= 30; i++) {
-    arr.push({ name: `Item${i}`, description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.` })
+    arr.push({ name: `item${i}`, description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.` })
   }
   console.log('arr', arr)
   return arr
