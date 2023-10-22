@@ -1,0 +1,93 @@
+.custom-font-nav-bar {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.custom-font-hero {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.product-img {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-img-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.product-img-bg {
+  background-image: url("../images/home/photo3.jpg");
+  background-size: cover;
+}
+
+.product-img-bg-2 {
+  background-image: url("../images/home/photo5.jpg");
+  background-size: cover;
+}
+
+#top-selling-carousel img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+.cart-icon{
+  margin-right: 15px;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 5px; 
+  right: 5px;
+  font-size: 24px;
+  color: white; 
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.heart-toggle-button {
+  border: none; 
+  color: white; 
+}
+
+.cart-toggle-button {
+  color: black; 
+  border: none; 
+}
+
+.cart-toggle-button.active {
+  color: green; 
+  border: none; 
+}
+
+.heart-toggle-button.active {
+  border: none; 
+  color: red;
+}
+
+.btn-outline-white {
+  color: black;
+  border-color: black;
+}
+
