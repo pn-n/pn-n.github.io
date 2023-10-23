@@ -5,10 +5,10 @@
   <a class="navbar-brand" href='#'> <img src="../images/capsule-logo.png" alt="logo" width="90" height="90"> 
     <span class="custom-font-nav-bar">CAPSULE</span>
   </a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse"">
+  <div class="collapse navbar-collapse"" id="navbarHome">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="../src/home.html">Home</a>
