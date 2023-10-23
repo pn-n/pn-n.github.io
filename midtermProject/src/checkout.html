@@ -65,7 +65,6 @@
                 </div>
               </form>
             </div>
-
             <div class="col-md-7 col-lg-8">
               <h4 class="mb-3">Billing address</h4>
               <form class="needs-validation" novalidate="">
@@ -139,20 +138,22 @@
                 </div>
       
                 <hr class="my-4">
-      
+
+                <h4 class="mb-3">Shipping address</h4>
                 <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="toggleBillingAddress">
-                  <label class="form-check-label" for="toggleBillingAddress">Shipping address is the same as my billing address</label>
+                  <input type="checkbox" class="form-check-input" id="toggleShippingAddress">
+                  <label class="form-check-label" for="toggleShippingAddress">Shipping address is the same as my billing address</label>
                 </div>
-      
+                
                 <div class="form-check">
                   <input type="checkbox" class="form-check-input" id="save-info">
                   <label class="form-check-label" for="save-info">Save this information for next time</label>
                 </div>
-
-                <div id="billingAddressSection" class="row g-3">
-                  <!-- Billing address form will add here -->
+                <br>
+                <div class="row g-3" id="shippingAddressSection">
+                  <!-- shipping address will be add here -->
                 </div>
+      
                 <hr class="my-4">
 
                 <h4 class="mb-3">Payment</h4>
@@ -170,7 +171,6 @@
                     <label class="form-check-label" for="paypal">PayPal</label>
                   </div>
                 </div>
-
                 <div class="row gy-3">
                   <div class="col-md-6">
                     <label for="cc-name" class="form-label">Name on card</label>
@@ -180,6 +180,7 @@
                       Name on card is required
                     </div>
                   </div>
+      
                   <div class="col-md-6">
                     <label for="cc-number" class="form-label">Credit card number</label>
                     <input type="text" class="form-control" id="cc-number" placeholder="" required="">
@@ -187,6 +188,7 @@
                       Credit card number is required
                     </div>
                   </div>
+      
                   <div class="col-md-3">
                     <label for="cc-expiration" class="form-label">Expiration</label>
                     <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
@@ -194,6 +196,7 @@
                       Expiration date required
                     </div>
                   </div>
+      
                   <div class="col-md-3">
                     <label for="cc-cvv" class="form-label">CVV</label>
                     <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
@@ -202,10 +205,15 @@
                     </div>
                   </div>
                 </div>
+      
                 <hr class="my-4">
+      
                 <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
               </form>
             </div>
+
+           
+            
           </div>
         </main>
       
